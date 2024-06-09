@@ -1,0 +1,201 @@
+[{
+  "_id": {
+    "$oid": "6659dd266db78339f379a592"
+  },
+  "first_name": "John",
+  "last_name": "Doe",
+  "age": 30,
+  "gender": "Male",
+  "email": "john.doe@example.com",
+  "phone": "123-456-7890",
+  "fax": "123-456-7891",
+  "address": {
+    "street": "123 Main St",
+    "postal_code": "12345",
+    "city": "Sample City",
+    "region_name": "Sample Region",
+    "state_name": "Sample State"
+  },
+  "reviews": [
+    {
+      "rating": 5,
+      "review_text": "Great product!",
+      "review_date": {
+        "$date": "2023-01-01T00:00:00.000Z"
+      },
+      "products": [
+        {
+          "product_name": "Sample Product",
+          "unit_price": 99.99,
+          "units_in_stock": 100,
+          "categories": [
+            {
+              "category_name": "Electronics",
+              "category_description": "Electronic items",
+              "subCategory_name": "Gadgets"
+            }
+          ],
+          "stocks": {
+            "quantity_available": 100,
+            "reorder_level": 20,
+            "reorder_quantity": 50,
+            "warehouse_location": "Warehouse 1"
+          },
+          "suppliers": {
+            "company_name": "Supplier Inc.",
+            "phone": "987-654-3210",
+            "email": "supplier@example.com",
+            "fax": "987-654-3211"
+          }
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "orderDate": {
+        "$date": "2023-01-02T00:00:00.000Z"
+      },
+      "shipDate": {
+        "$date": "2023-01-05T00:00:00.000Z"
+      },
+      "order_details_name": "Order #12345",
+      "segments_name": "Online",
+      "shopmodes_name": "Delivery"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6659ddaf6db78339f379a593"
+  },
+  "first_name": "Jane",
+  "last_name": "Smith",
+  "age": 28,
+  "gender": "Female",
+  "email": "jane.smith@example.com",
+  "phone": "234-567-8901",
+  "fax": "234-567-8902",
+  "address": {
+    "street": "456 Elm St",
+    "postal_code": "67890",
+    "city": "Another City",
+    "region_name": "Another Region",
+    "state_name": "Another State"
+  },
+  "reviews": [
+    {
+      "rating": 4,
+      "review_text": "Good quality!",
+      "review_date": {
+        "$date": "2023-02-15T00:00:00.000Z"
+      },
+      "products": [
+        {
+          "product_name": "Sample Product B",
+          "unit_price": 49.99,
+          "units_in_stock": 200,
+          "categories": [
+            {
+              "category_name": "Home Goods",
+              "category_description": "Items for home",
+              "subCategory_name": "Kitchen"
+            }
+          ],
+          "stocks": {
+            "quantity_available": 200,
+            "reorder_level": 50,
+            "reorder_quantity": 100,
+            "warehouse_location": "Warehouse 2"
+          },
+          "suppliers": {
+            "company_name": "Supplier B Inc.",
+            "phone": "876-543-2109",
+            "email": "supplierB@example.com",
+            "fax": "876-543-2110"
+          }
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "orderDate": {
+        "$date": "2023-02-16T00:00:00.000Z"
+      },
+      "shipDate": {
+        "$date": "2023-02-18T00:00:00.000Z"
+      },
+      "order_details_name": "Order #67890",
+      "segments_name": "In-Store",
+      "shopmodes_name": "Pickup"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6659ddc16db78339f379a594"
+  },
+  "first_name": "Alice",
+  "last_name": "Johnson",
+  "age": 35,
+  "gender": "Female",
+  "email": "alice.johnson@example.com",
+  "phone": "345-678-9012",
+  "fax": "345-678-9013",
+  "address": {
+    "street": "789 Oak St",
+    "postal_code": "54321",
+    "city": "Sample Town",
+    "region_name": "Sample Area",
+    "state_name": "Sample State"
+  },
+  "reviews": [
+    {
+      "rating": 3,
+      "review_text": "Average product.",
+      "review_date": {
+        "$date": "2023-03-10T00:00:00.000Z"
+      },
+      "products": [
+        {
+          "product_name": "Sample Product C",
+          "unit_price": 29.99,
+          "units_in_stock": 300,
+          "categories": [
+            {
+              "category_name": "Outdoor",
+              "category_description": "Outdoor items",
+              "subCategory_name": "Camping"
+            }
+          ],
+          "stocks": {
+            "quantity_available": 300,
+            "reorder_level": 60,
+            "reorder_quantity": 150,
+            "warehouse_location": "Warehouse 3"
+          },
+          "suppliers": {
+            "company_name": "Supplier C Inc.",
+            "phone": "765-432-1098",
+            "email": "supplierC@example.com",
+            "fax": "765-432-1099"
+          }
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "orderDate": {
+        "$date": "2023-03-12T00:00:00.000Z"
+      },
+      "shipDate": {
+        "$date": "2023-03-14T00:00:00.000Z"
+      },
+      "order_details_name": "Order #11223",
+      "segments_name": "Online",
+      "shopmodes_name": "Delivery"
+    }
+  ]
+}]
